@@ -1,0 +1,12 @@
+.textbox{
+    border: 1px solid #C5C5C5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px solid #666666;
+    padding: 5px;
+    
+}
+.boton{
+    border: 1px solid #db1b8b;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 10px solid #dd07cb;
+}

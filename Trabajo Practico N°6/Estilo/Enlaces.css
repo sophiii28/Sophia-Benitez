@@ -1,0 +1,18 @@
+a:no-visited {
+    color: #1a7431;
+    font-weight: bold;
+}
+a:visited {
+    color: #d43497;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-style: italic;
+}
+a:active {
+    color: #3b237c;
+    font-weight: bold;
+    font-size: 20em;
+}
