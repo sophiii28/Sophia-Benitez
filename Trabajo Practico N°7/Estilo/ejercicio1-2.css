@@ -1,0 +1,40 @@
+.contenedor1{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+    position: relative;
+     width: 1310px;
+     height: 100px;
+     left: 5px;
+     
+     
+
+}
+.contenedor2{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+     position: absolute;
+     top: 150px;
+     left: 370px;
+  width: 900px;
+  height: 600px;
+     
+    
+}
+.contenedor3{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+    position: absolute;
+     top: 150px;
+     left: 10px;
+  width: 300px;
+   height: 600px;
+}
+.contenedor4{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+   position: absolute;
+     top: 790px;
+     
+ width: 1310px;
+   height: 100px;
+    }

@@ -1,0 +1,44 @@
+.contenedor_1{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+    position: relative;
+     width: 1295px;
+     height: 20%;
+     left: 10px;
+     top: 10px;
+     
+
+}
+.contenedor_2{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+     position: absolute;
+     top: 170px;
+     left: 250px;
+  width: 830px;
+  height: 1000px;
+     
+    
+}
+.contenedor_3{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+    position: absolute;
+     top: 170px;
+     left: 10px;
+  width: 200px;
+  height: 1000px;
+}
+.contenedor_4{
+    background-color: #6d6c6c;
+    border: 5px solid #c5c5c5;
+   position: absolute;
+     top: 170px;
+     right: 10px;
+  width: 200px;
+  height: 1000px;
+    }
+.palabra{
+
+    text-align: center;
+}
