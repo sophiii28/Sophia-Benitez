@@ -13,8 +13,8 @@
         let edad= prompt("Ingrese su edad");
         let fecha= prompt("Ingrese fecha de nacimiento");
         let dni= prompt("Ingrese su DNI");
-       let conf= prompt("Si desea mostrar sus datos, presione x, en caso contrario pulse cualquier letra.");
-       if (conf=="x") {
+       
+       confirm("Desea mostrar sus datos?")
          document.write("Nombres:"+nombre+"<br>");
         document.write("Apellidos:"+apellido+"<br>");
         document.write("Estado civil:"+estado+"<br>");
@@ -22,9 +22,7 @@
         document.write("Fecha de nacimiento:"+fecha+"<br>");
         document.write("DNI:"+dni+"<br>");
         document.write("Sus datos han sido impresos");
-        }
-       else 
-          document.write("No se desea mostrar los datos.")
+ 
 
     </script>
     
