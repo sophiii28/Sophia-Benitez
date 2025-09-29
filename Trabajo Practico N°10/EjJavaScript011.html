@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" onsubmit="postre(event)">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <textarea name="post" id="post"></textarea>
+        <br>
+        <button id="publicar" type="submit" >Postear</button>
+    </form>
+      
+
+    <div id="posts"></div>
+          <script>
+        function postre(e) {
+              e.preventDefault();
+            var d = new Date();
+            let posts = document.getElementById("posts");
+            let nom = document.getElementById("nombre").value;
+            let post1 = document.getElementById("post").value;
+            posts.innerHTML += `<p>${d.toLocaleDateString()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()} por ${nom}</p>`;
+            posts.innerHTML += `<p>${post1}</p>`;
+                   
+        }
+    </script>
+
+</body>
+</html>
